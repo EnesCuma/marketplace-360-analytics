@@ -1,0 +1,26 @@
+# Raw data
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# SQL Server database and backup files
+*.mdf
+*.ldf
+*.bak
+
+# Power BI temporary files
+~$*.pbix
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
